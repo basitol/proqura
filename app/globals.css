@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'circular';
+}
+
+@font-face {
+  font-family: 'circular';
+  src: url('../public/fonts/circular-std-medium-500.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'century';
+  src: url('../public/fonts/Century\ Normal.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

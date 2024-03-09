@@ -1,0 +1,51 @@
+/* page.module.css */
+.container {
+  /* @apply; */
+}
+
+.main {
+  @apply flex flex-col min-h-screen;
+}
+
+.navbar,
+.hero {
+  @apply flex justify-between items-center py-14 px-20 bg-[#4031b7];
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+}
+
+.navLinks,
+.authLinks {
+  @apply flex gap-5;
+}
+
+.navLink,
+.login,
+.signup {
+  @apply no-underline text-[#B6D2E3];
+}
+
+.login {
+  @apply flex items-center;
+}
+
+.signup {
+  @apply flex items-center gap-1;
+  border: 1px solid #b6d2e3; /* Style for auth links */
+  padding: 8px 12px;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.signup:hover {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.hero {
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 20px;
+}
