@@ -22,17 +22,17 @@ const solutionData = [
 
 const Solution = () => {
   return (
-    <section className='flex flex-col py-[180px] items-center w-full'>
+    <section className='flex flex-col py-[120px] md:py-[180px] items-center w-full'>
       <div className='text-center'>
-        <h1 className='font-[century] text-5xl leading-[65px] text-[#111028] mb-8'>
+        <h1 className='font-[century] md:text-5xl text-4xl leading-10 md:leading-[65px] text-[#111028] mb-8'>
           Have a complete purchasing solution
         </h1>
-        <p className='text-lg'>
+        <p className='text-base md:text-lg'>
           Advertise, Approve and Manage projects for your business.
         </p>
       </div>
 
-      <div className='flex items-center justify-around w-full mt-24'>
+      <div className='flex flex-col gap-6 md:flex-row items-center justify-around w-full mt-24'>
         {solutionData.map((item, index) => (
           <SolutionComponent
             key={index}

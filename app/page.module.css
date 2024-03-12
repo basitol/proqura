@@ -7,11 +7,11 @@
   @apply flex flex-col min-h-screen;
 }
 
-.navbar,
+/* .navbar,
 .hero {
   @apply flex justify-between items-center py-14 px-20 bg-[#4031b7];
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .logo {
 }
